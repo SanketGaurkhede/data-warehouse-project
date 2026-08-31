@@ -53,7 +53,7 @@ For more details, refer to docs/requirements.md.
 📂 Repository Structure
 
 ```text
-sql-data-warehouse-project/
+data-warehouse-project/
 │
 ├── datasets/                    # Raw datasets used for the project
 │
@@ -76,3 +76,28 @@ sql-data-warehouse-project/
 ├── LICENSE                      # License information
 ├── .gitignore                   # Files ignored by Git
 └── requirements.txt             # Project dependencies
+
+🛡️ License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
+
+🌟 About Me
+
+Hi there! I'm Sanket Gaurkhede, an IT professional, AWS DevOps Engineer and Data Engineer with hands-on experience in cloud infrastructure, automation, and data engineering.
+
+I'm passionate about building scalable and reliable data solutions and continuously expanding my skills in SQL, Python, AWS, Data Engineering, Data Warehousing, ETL, Snowflakes and Cloud Technologies.
+
+Through my projects, I enjoy working with technologies such as SQL Server, AWS, Terraform, Docker, Git, and Data Engineering tools while following industry best practices for data architecture, ETL pipelines, data modeling, and analytics.
+
+🚀 Areas of Interest
+
+- Data Engineering
+- SQL & Data Warehousing
+- ETL & Data Pipelines
+- AWS Cloud
+- Data Modeling & Analytics
+- Infrastructure as Code
+- DevOps & Cloud Automation
+
+📫 Let's Connect
+
+I'm always interested in learning, collaborating, and connecting with professionals in Cloud, Data Engineering, and Analytics.
