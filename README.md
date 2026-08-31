@@ -52,32 +52,27 @@ For more details, refer to docs/requirements.md.
 
 📂 Repository Structure
 
-
-The first one starts the code block and the second one closes it.
-
-### One more thing
-
-In your current README, you have something like:
-
-> `data-warehouse-project/ | ├── datasets/ # Raw datasets... | ├── docs/ ...`
-
-That means the tree has effectively been written as **one continuous line**. GitHub therefore cannot display it like your second screenshot.
-
-You want **each tree item on its own physical line**:
-
 ```text
-data-warehouse-project/
+sql-data-warehouse-project/
 │
-├── datasets/
+├── datasets/                    # Raw datasets used for the project
 │
-├── docs/
-│   ├── etl.drawio
-│   ├── data_architecture.drawio
-│   └── data_catalog.md
+├── docs/                        # Project documentation and architecture details
+│   ├── etl.drawio               # ETL techniques and methods
+│   ├── data_architecture.drawio # Project architecture
+│   ├── data_catalog.md          # Dataset catalog and metadata
+│   ├── data_flow.drawio         # Data flow diagram
+│   ├── data_models.drawio       # Data models / star schema
+│   └── naming-conventions.md    # Naming standards
 │
-├── scripts/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+├── scripts/                     # SQL scripts for ETL and transformations
+│   ├── bronze/                  # Extract and load raw data
+│   ├── silver/                  # Clean and transform data
+│   └── gold/                    # Create analytical models
 │
-└── README.md
+├── tests/                       # Data quality and test scripts
+│
+├── README.md                    # Project overview and instructions
+├── LICENSE                      # License information
+├── .gitignore                   # Files ignored by Git
+└── requirements.txt             # Project dependencies
